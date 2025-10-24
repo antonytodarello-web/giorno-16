@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #000000;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 4rem;
+  border-bottom: 1px solid #ddd;
+    background-color: #FFC017; 
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #6d6767;
+  font-size: 0.95rem;
+}
+
+.btn {
+  background: #353333;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+}
+
+/* --- HERO --- */
+.hero {
+  background: #FFC017;
+  padding: 6rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.hero-text h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.hero-bg {
+  font-weight: bold;
+  font-size: 1rem;
+  opacity: 0.3;
+  line-height: 1.5rem;
+}
+
+/* --- TRENDING SECTION --- */
+.trending {
+  padding: 3rem 4rem;
+  border-bottom: 1px solid #eee;
+}
+
+.trending h3 {
+  margin-bottom: 1.5rem;
+}
+
+.trending-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.trend-item {
+  display: flex;
+  gap: 1rem;
+  width: 45%;
+}
+
+.number {
+  font-weight: bold;
+  color: #ccc;
+  font-size: 2rem;
+}
+
+/* --- MAIN LAYOUT --- */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 4rem;
+  gap: 3rem;
+}
+
+/* LEFT COLUMN */
+.articles {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 2rem;
+}
+
+.post img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.post-text p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.post-text span {
+  font-size: 0.85rem;
+  color: #999;
+}
+
+/* RIGHT COLUMN (SIDEBAR) */
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.tags span {
+  background: #f2f2f2;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: #888;
+}
+ .MMMM{
+height: 400px;
+width: 400px;
+ }
